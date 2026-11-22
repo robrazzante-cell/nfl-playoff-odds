@@ -9,7 +9,7 @@ a "what if" picker so you can lock in results for remaining games and see
 odds update live, and a "games that matter most" ranking for whichever team
 you spotlight.
 
-Live site: _(add your Vercel URL here once deployed — see below)_
+Live site: **https://nfl-playoff-odds.vercel.app**
 
 ## How it's built
 
@@ -54,8 +54,15 @@ npm run backfill-history  # add odds snapshots for any completed week that doesn
 
 ## Deploying it (step by step)
 
-These steps get you a free, shareable link. You only need to do this once —
-after that, every update happens automatically.
+**The site is already live** at https://nfl-playoff-odds.vercel.app — that's
+your shareable link right now, today. Anyone with that link can open it;
+nothing further is required for people to view it.
+
+The one thing *not* automated yet is keeping the data fresh — right now, the
+schedule/scores/odds-history data is a one-time snapshot from when it was
+deployed. To make the data update itself automatically (daily, and more
+often on game days), do the two one-time steps below. You only need to do
+this once — after that, everything happens on its own.
 
 ### 1. Put the code on GitHub
 
@@ -71,22 +78,25 @@ after that, every update happens automatically.
    git push -u origin main
    ```
 
-### 2. Connect it to Vercel
+### 2. Connect the existing Vercel project to that GitHub repo
 
-1. Go to [vercel.com](https://vercel.com) and sign up/log in — the easiest
-   way is "Continue with GitHub," which also handles step 3 automatically.
-2. Click **"Add New... → Project"**.
-3. Pick the GitHub repository you just created and click **Import**.
-4. Vercel will auto-detect it's a Vite app. Leave the default settings and
-   click **Deploy**.
-5. After a minute or so, you'll get a live link like
-   `https://your-repo-name.vercel.app` — that's your shareable link. Anyone
-   with that link can open the site; you don't need to do anything else to
-   share it.
+The `nfl-playoff-odds` Vercel project already exists (that's what's serving
+the live link above) — you're connecting it to GitHub, not creating a new
+one. If you create a brand-new project here instead, you'll end up with a
+second, separate URL that doesn't match the one above.
+
+1. Go to [vercel.com](https://vercel.com) and log in (same account you used
+   to deploy, or "Continue with GitHub" if you're not sure).
+2. Open the **nfl-playoff-odds** project → **Settings → Git**.
+3. Click **Connect Git Repository**, choose GitHub, and pick the repository
+   you just pushed to.
+4. Leave the branch as `main` and save.
 
 From now on, every time anything pushes to the `main` branch on GitHub
 (including the automated data updates below), Vercel automatically redeploys
-the site with the new data — usually within a minute.
+https://nfl-playoff-odds.vercel.app with the new data — usually within a
+minute. No new link, no extra steps — the same shareable link just stays
+current on its own.
 
 ### 3. Let the GitHub Action keep the data fresh
 
