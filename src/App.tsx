@@ -126,11 +126,12 @@ function App() {
         teams={TEAMS}
         onChangeTeam={setSpotlightTeamId}
         odds={response?.teamOdds[spotlightTeamId] ?? null}
+        trialsRun={response?.trialsRun ?? TRIALS}
         remainingGames={remainingGames}
         teamsById={TEAMS_BY_ID}
-        currentRatings={currentRatings}
-        config={DEFAULT_ELO_CONFIG}
         sensitivityResults={sensitivityResults}
+        overrides={overridesMap}
+        onSetPick={handleSetPick}
       />
 
       <GamesThatMatter
