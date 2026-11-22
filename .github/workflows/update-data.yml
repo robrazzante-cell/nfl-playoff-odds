@@ -1,0 +1,41 @@
+name: Update NFL schedule data
+
+on:
+  schedule:
+    # Daily at 09:00 UTC (covers normal roster/schedule updates)
+    - cron: '0 9 * * *'
+    # Every 2 hours on Thursday (TNF), Sunday (main slate), and Monday (MNF),
+    # from early afternoon through late night Eastern, so scores update
+    # promptly on game days without needing a key or paid service.
+    - cron: '0 16-23/2 * * 0,1,4'
+  workflow_dispatch: {} # lets you trigger a manual refresh from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest schedule/scores
+        run: node scripts/fetch-data.mjs
+
+      - name: Commit changes if anything updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "No data changes, nothing to commit."
+          else
+            git commit -m "Update NFL schedule data [automated]"
+            git push
+          fi
