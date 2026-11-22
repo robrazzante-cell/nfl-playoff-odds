@@ -1650,83 +1650,6 @@
     "completed": true
   },
   {
-    "id": "401873070",
-    "week": 11,
-    "seasonType": 2,
-    "date": "2026-11-22T18:00Z",
-    "homeTeamId": "2",
-    "awayTeamId": "15",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
-  },
-  {
-    "id": "401873071",
-    "week": 11,
-    "seasonType": 2,
-    "date": "2026-11-22T18:00Z",
-    "homeTeamId": "3",
-    "awayTeamId": "18",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
-  },
-  {
-    "id": "401873073",
-    "week": 11,
-    "seasonType": 2,
-    "date": "2026-11-22T18:00Z",
-    "homeTeamId": "6",
-    "awayTeamId": "10",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
-  },
-  {
-    "id": "401873072",
-    "week": 11,
-    "seasonType": 2,
-    "date": "2026-11-22T18:00Z",
-    "homeTeamId": "8",
-    "awayTeamId": "27",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
-  },
-  {
-    "id": "401873067",
-    "week": 11,
-    "seasonType": 2,
-    "date": "2026-11-22T18:00Z",
-    "homeTeamId": "12",
-    "awayTeamId": "22",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
-  },
-  {
-    "id": "401873076",
-    "week": 11,
-    "seasonType": 2,
-    "date": "2026-11-22T18:00Z",
-    "homeTeamId": "21",
-    "awayTeamId": "23",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
-  },
-  {
-    "id": "401873068",
-    "week": 11,
-    "seasonType": 2,
-    "date": "2026-11-22T18:00Z",
-    "homeTeamId": "29",
-    "awayTeamId": "33",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
-  },
-  {
     "id": "401873074",
     "week": 11,
     "seasonType": 2,
@@ -1736,6 +1659,83 @@
     "homeScore": null,
     "awayScore": null,
     "completed": false
+  },
+  {
+    "id": "401873070",
+    "week": 11,
+    "seasonType": 2,
+    "date": "2026-11-22T18:00Z",
+    "homeTeamId": "2",
+    "awayTeamId": "15",
+    "homeScore": 26,
+    "awayScore": 9,
+    "completed": true
+  },
+  {
+    "id": "401873071",
+    "week": 11,
+    "seasonType": 2,
+    "date": "2026-11-22T18:00Z",
+    "homeTeamId": "3",
+    "awayTeamId": "18",
+    "homeScore": 21,
+    "awayScore": 13,
+    "completed": true
+  },
+  {
+    "id": "401873073",
+    "week": 11,
+    "seasonType": 2,
+    "date": "2026-11-22T18:00Z",
+    "homeTeamId": "6",
+    "awayTeamId": "10",
+    "homeScore": 51,
+    "awayScore": 30,
+    "completed": true
+  },
+  {
+    "id": "401873072",
+    "week": 11,
+    "seasonType": 2,
+    "date": "2026-11-22T18:00Z",
+    "homeTeamId": "8",
+    "awayTeamId": "27",
+    "homeScore": 31,
+    "awayScore": 21,
+    "completed": true
+  },
+  {
+    "id": "401873067",
+    "week": 11,
+    "seasonType": 2,
+    "date": "2026-11-22T18:00Z",
+    "homeTeamId": "12",
+    "awayTeamId": "22",
+    "homeScore": 34,
+    "awayScore": 7,
+    "completed": true
+  },
+  {
+    "id": "401873076",
+    "week": 11,
+    "seasonType": 2,
+    "date": "2026-11-22T18:00Z",
+    "homeTeamId": "21",
+    "awayTeamId": "23",
+    "homeScore": 19,
+    "awayScore": 16,
+    "completed": true
+  },
+  {
+    "id": "401873068",
+    "week": 11,
+    "seasonType": 2,
+    "date": "2026-11-22T18:00Z",
+    "homeTeamId": "29",
+    "awayTeamId": "33",
+    "homeScore": 35,
+    "awayScore": 33,
+    "completed": true
   },
   {
     "id": "401873075",
