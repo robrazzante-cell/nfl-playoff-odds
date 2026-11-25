@@ -1667,9 +1667,9 @@
     "date": "2026-11-22T18:00Z",
     "homeTeamId": "2",
     "awayTeamId": "15",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 26,
+    "awayScore": 9,
+    "completed": true
   },
   {
     "id": "401873071",
@@ -1678,9 +1678,9 @@
     "date": "2026-11-22T18:00Z",
     "homeTeamId": "3",
     "awayTeamId": "18",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 21,
+    "awayScore": 13,
+    "completed": true
   },
   {
     "id": "401873073",
@@ -1689,9 +1689,9 @@
     "date": "2026-11-22T18:00Z",
     "homeTeamId": "6",
     "awayTeamId": "10",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 51,
+    "awayScore": 30,
+    "completed": true
   },
   {
     "id": "401873072",
@@ -1700,9 +1700,9 @@
     "date": "2026-11-22T18:00Z",
     "homeTeamId": "8",
     "awayTeamId": "27",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 31,
+    "awayScore": 21,
+    "completed": true
   },
   {
     "id": "401873067",
@@ -1711,9 +1711,9 @@
     "date": "2026-11-22T18:00Z",
     "homeTeamId": "12",
     "awayTeamId": "22",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 34,
+    "awayScore": 7,
+    "completed": true
   },
   {
     "id": "401873076",
@@ -1722,9 +1722,9 @@
     "date": "2026-11-22T18:00Z",
     "homeTeamId": "21",
     "awayTeamId": "23",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 19,
+    "awayScore": 16,
+    "completed": true
   },
   {
     "id": "401873068",
@@ -1733,9 +1733,9 @@
     "date": "2026-11-22T18:00Z",
     "homeTeamId": "29",
     "awayTeamId": "33",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 35,
+    "awayScore": 33,
+    "completed": true
   },
   {
     "id": "401873074",
@@ -1744,9 +1744,9 @@
     "date": "2026-11-22T21:05Z",
     "homeTeamId": "24",
     "awayTeamId": "20",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 24,
+    "awayScore": 27,
+    "completed": true
   },
   {
     "id": "401873075",
@@ -1755,9 +1755,9 @@
     "date": "2026-11-22T21:25Z",
     "homeTeamId": "7",
     "awayTeamId": "13",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 38,
+    "awayScore": 24,
+    "completed": true
   },
   {
     "id": "401873069",
@@ -1766,9 +1766,9 @@
     "date": "2026-11-22T21:25Z",
     "homeTeamId": "19",
     "awayTeamId": "30",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 23,
+    "awayScore": 18,
+    "completed": true
   },
   {
     "id": "401873077",
@@ -1777,9 +1777,9 @@
     "date": "2026-11-23T01:20Z",
     "homeTeamId": "25",
     "awayTeamId": "16",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 35,
+    "awayScore": 10,
+    "completed": true
   },
   {
     "id": "401873078",
@@ -1788,9 +1788,9 @@
     "date": "2026-11-24T01:15Z",
     "homeTeamId": "28",
     "awayTeamId": "4",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
+    "homeScore": 22,
+    "awayScore": 20,
+    "completed": true
   },
   {
     "id": "401873079",
