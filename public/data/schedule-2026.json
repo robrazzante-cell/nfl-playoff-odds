@@ -1793,17 +1793,6 @@
     "completed": true
   },
   {
-    "id": "401873081",
-    "week": 12,
-    "seasonType": 2,
-    "date": "2026-11-26T18:00Z",
-    "homeTeamId": "8",
-    "awayTeamId": "3",
-    "homeScore": null,
-    "awayScore": null,
-    "completed": false
-  },
-  {
     "id": "401873080",
     "week": 12,
     "seasonType": 2,
@@ -1813,6 +1802,17 @@
     "homeScore": null,
     "awayScore": null,
     "completed": false
+  },
+  {
+    "id": "401873081",
+    "week": 12,
+    "seasonType": 2,
+    "date": "2026-11-26T18:00Z",
+    "homeTeamId": "8",
+    "awayTeamId": "3",
+    "homeScore": 35,
+    "awayScore": 39,
+    "completed": true
   },
   {
     "id": "401873082",
